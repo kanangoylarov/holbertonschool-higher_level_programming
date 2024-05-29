@@ -7,5 +7,5 @@ This class don't do anything for the moment
 
 
 class Square:
-    """Represent a square.""
+    """Represent a square."""
     pass
