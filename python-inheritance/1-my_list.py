@@ -22,4 +22,3 @@ class MyList(list):
             print(sorted(self))
         except TypeError:
             raise TypeError("unorderable types: str() < int()")
-
