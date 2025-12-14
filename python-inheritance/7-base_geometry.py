@@ -6,6 +6,12 @@
 class BaseGeometry:
     """Reprsent base geometry."""
 
+    def __init__(self, *args):
+        """init function of my error class"""
+        if args:
+            raise TypeError("object() takes no parameters")
+
+
     def area(self):
         """Not yet implemented."""
         raise Exception("area() is not implemented")
